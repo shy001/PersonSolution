@@ -1,0 +1,5 @@
+C:\Development\Mentorship\PersonSolution\Person.ClassLibrary\obj\Debug\Person.ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Development\Mentorship\PersonSolution\Person.ClassLibrary\bin\Debug\Person.ClassLibrary.dll
+C:\Development\Mentorship\PersonSolution\Person.ClassLibrary\bin\Debug\Person.ClassLibrary.pdb
+C:\Development\Mentorship\PersonSolution\Person.ClassLibrary\obj\Debug\Person.ClassLibrary.dll
+C:\Development\Mentorship\PersonSolution\Person.ClassLibrary\obj\Debug\Person.ClassLibrary.pdb

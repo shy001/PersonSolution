@@ -1,0 +1,6 @@
+C:\Development\Mentorship\PersonSolution\ConsoleApplication1\obj\Debug\PersonApp.csprojResolveAssemblyReference.cache
+C:\Development\Mentorship\PersonSolution\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Development\Mentorship\PersonSolution\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Development\Mentorship\PersonSolution\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Development\Mentorship\PersonSolution\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Development\Mentorship\PersonSolution\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
