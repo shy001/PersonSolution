@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D982F90-B17A-4AD7-B36F-6B0C39C3C14E}</ProjectGuid>
+    <ProjectGuid>{1B3E4280-0106-4FCA-999A-92D21E4305A2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
-    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <RootNamespace>PersonAppWeek4</RootNamespace>
+    <AssemblyName>PersonAppWeek4</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,20 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DescendingLinkedListIterator.cs" />
-    <Compile Include="IAggregate.cs" />
-    <Compile Include="IIterator.cs" />
-    <Compile Include="Iterator2.cs" />
-    <Compile Include="KcLinkedList.cs" />
-    <Compile Include="MyAggregate.cs" />
-    <Compile Include="MyIterator.cs" />
-    <Compile Include="Node.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="ProgramOriginal.cs" />
+    <Compile Include="DescLinkedListIterator.cs" />
+    <Compile Include="Iterator.cs" />
+    <Compile Include="LinkedListIterator.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PersonSolution.Interfaces\PersonSolution.Interfaces.csproj">
+      <Project>{561691e6-1008-4922-a538-16ed1d4615fe}</Project>
+      <Name>PersonSolution.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,8 @@
+C:\Development\Mentorship\PersonSolution\PersonAppWeek4\bin\Debug\PersonAppWeek4.exe.config
+C:\Development\Mentorship\PersonSolution\PersonAppWeek4\bin\Debug\PersonAppWeek4.exe
+C:\Development\Mentorship\PersonSolution\PersonAppWeek4\bin\Debug\PersonAppWeek4.pdb
+C:\Development\Mentorship\PersonSolution\PersonAppWeek4\bin\Debug\PersonSolution.Interfaces.dll
+C:\Development\Mentorship\PersonSolution\PersonAppWeek4\bin\Debug\PersonSolution.Interfaces.pdb
+C:\Development\Mentorship\PersonSolution\PersonAppWeek4\obj\Debug\PersonAppWeek4.csprojResolveAssemblyReference.cache
+C:\Development\Mentorship\PersonSolution\PersonAppWeek4\obj\Debug\PersonAppWeek4.exe
+C:\Development\Mentorship\PersonSolution\PersonAppWeek4\obj\Debug\PersonAppWeek4.pdb

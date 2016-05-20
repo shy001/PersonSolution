@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApplication1;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +33,13 @@ namespace PersonApp
             foreach (var person in linkedList)
             {
                 Console.WriteLine(person);
+            }
+
+            var descListIterator = new DescendingLinkedListIterator(linkedList);
+            
+            while (descListIterator.HasNext())
+            {
+                Console.WriteLine(descListIterator.Next());
             }
             Console.ReadKey();
         }

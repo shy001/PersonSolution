@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApplication1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,110 +46,95 @@ namespace MentorSessionWeek1.Cmd
         }
     }
 
-    public class KcLinkedList<T>
-    {
-        private Node<T> _root;
-        private Node<T> _last;
-        //ss
-        private Node<T> _previous;
-        private Node<T> _current;
+    //public class KcLinkedList<T>
+    //{
+    //    private Node<T> _root;
+    //    private Node<T> _last;
+    //    //ss
+    //    private Node<T> _previous;
+    //    private Node<T> _current;
 
-        public void Add(T value)
-        {
-            if (_root == null)
-            {
-                //First
-                _root = new Node<T>(value);
-                _current = _root;
-                _last = _root;
-            }
-            else
-            {
-                //Following Nodes
-                var newValue = new Node<T>(value);
-                newValue.Previous = _last;
-                _last.Next = newValue;
-                _last = newValue;
-                _current = _last;
-            }
-        }
+    //    public void Add(T value)
+    //    {
+    //        if (_root == null)
+    //        {
+    //            //First
+    //            _root = new Node<T>(value);
+    //            _current = _root;
+    //            _last = _root;
+    //        }
+    //        else
+    //        {
+    //            //Following Nodes
+    //            var newValue = new Node<T>(value);
+    //            newValue.Previous = _last;
+    //            _last.Next = newValue;
+    //            _last = newValue;
+    //            _current = _last;
+    //        }
+    //    }
 
-        public string Display()
-        {
-            var resultString = "";
-            var element = _root;
-            while (element != null)
-            {
-                resultString += element + ", ";
+    //    public string Display()
+    //    {
+    //        var resultString = "";
+    //        var element = _root;
+    //        while (element != null)
+    //        {
+    //            resultString += element + ", ";
 
-                _current = element;
-                element = element.Next;
-            }
+    //            _current = element;
+    //            element = element.Next;
+    //        }
 
-            return resultString;
-        }
+    //        return resultString;
+    //    }
 
-        public string InReverse()
-        {
-            var resultString = "";
-            var element = _last;
-            while (element != null)
-            {
-                resultString += element + ", ";
+    //    public string InReverse()
+    //    {
+    //        var resultString = "";
+    //        var element = _last;
+    //        while (element != null)
+    //        {
+    //            resultString += element + ", ";
 
-                _current = element;
-                element = element.Previous;
-            }
+    //            _current = element;
+    //            element = element.Previous;
+    //        }
 
-            return resultString;
-        }
+    //        return resultString;
+    //    }
 
-        public bool hasNext()
-        {
-            return (_current.Next != null);
-        }
+    //    public bool hasNext()
+    //    {
+    //        return (_current.Next != null);
+    //    }
 
-        public Node<T> next()
-        {
-            var current = _current;
-            _current = _current.Next;
-            return current;
-        }
-    }
+    //    public Node<T> next()
+    //    {
+    //        var current = _current;
+    //        _current = _current.Next;
+    //        return current;
+    //    }
+    //}
 
 
-    public class Node<T>
-    {
+    //public class Node<T>
+    //{
 
-        public Node(T value)
-        {
-            Data = value;
-        }
+    //    public Node(T value)
+    //    {
+    //        Data = value;
+    //    }
 
-        T Data { get; set; }
-        public Node<T> Next { get; set; }
-        public Node<T> Previous { get; set; }
+    //    T Data { get; set; }
+    //    public Node<T> Next { get; set; }
+    //    public Node<T> Previous { get; set; }
 
-        public override string ToString()
-        {
-            return Data.ToString();
-        }
-    }
+    //    public override string ToString()
+    //    {
+    //        return Data.ToString();
+    //    }
+    //}
 
-    public class Person
-    {
-        public Person(int age, string name)
-        {
-            Age = age;
-            Name = name;
-        }
-
-        public int Age { get; set; }
-        public string Name { get; set; }
-
-        public override string ToString()
-        {
-            return string.Format("Name: {0}, Age: {1}", Name, Age);
-        }
-    }
+    
 }

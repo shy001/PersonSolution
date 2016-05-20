@@ -1,0 +1,5 @@
+C:\Development\Mentorship\PersonSolution\PersonSolution.Interfaces\bin\Debug\PersonSolution.Interfaces.dll
+C:\Development\Mentorship\PersonSolution\PersonSolution.Interfaces\bin\Debug\PersonSolution.Interfaces.pdb
+C:\Development\Mentorship\PersonSolution\PersonSolution.Interfaces\obj\Debug\PersonSolution.Interfaces.csprojResolveAssemblyReference.cache
+C:\Development\Mentorship\PersonSolution\PersonSolution.Interfaces\obj\Debug\PersonSolution.Interfaces.dll
+C:\Development\Mentorship\PersonSolution\PersonSolution.Interfaces\obj\Debug\PersonSolution.Interfaces.pdb
